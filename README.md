@@ -1,14 +1,21 @@
+<p data-importer="text" align="left"></p>
 
-<p data-importer="text" align="center">16yo</p>
+###
+
+<br clear="both">
+
+<div data-importer="image" align="center">
+  <img data-importer="image" height="200" src="https://i.pinimg.com/736x/f2/37/7d/f2377d5f133983724d2caf7b30a1c97e.jpg"  />
+</div>
+
+###
+
+<p data-importer="text" align="center">16yo<br>AI and Data Science enthusiast.</p>
 
 ###
 
 <div data-importer="techs" align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black&style=for-the-badge" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge" height="40" alt="cplusplus logo"  />
   <img width="12" />
   <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge" height="40" alt="linux logo"  />
   <img width="12" />
@@ -16,4 +23,3 @@
 </div>
 
 ###
-
