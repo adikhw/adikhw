@@ -10,7 +10,7 @@
 
 ###
 
-<p data-importer="text" align="center">16yo<br>AI and Data Science enthusiast.</p>
+<p data-importer="text" align="center">16yo<br>Just a tech.</p>
 
 ###
 
