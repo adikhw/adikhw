@@ -4,9 +4,9 @@
 
 <br clear="both">
 
-<div data-importer="image" align="center">
-  <img data-importer="image" height="200" src="https://i.pinimg.com/736x/f2/37/7d/f2377d5f133983724d2caf7b30a1c97e.jpg"  />
-</div>
+<p align="center">
+  <img src="image/banner.jpeg" width="700" alt="Profile banner">
+</p>
 
 ###
 
