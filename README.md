@@ -11,7 +11,7 @@
 ###
 
 <h1 align="center">kurta</h1>
-<p data-importer="text" align="center">what a nerd</p>
+<h3 data-importer="text" align="center">what a nerd</h3>
 
 ###
 
