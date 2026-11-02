@@ -10,8 +10,8 @@
 
 ###
 
-<h1 align="center">Adikhw</h1>
-<p data-importer="text" align="center">ingin menjadi programmer handal namun enggan koding</p>
+<h1 align="center">kurta</h1>
+<p data-importer="text" align="center">what a nerd</p>
 
 ###
 
