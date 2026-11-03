@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=800&color=00ADD8&center=true&vCenter=true&width=600&lines=hi%2C+i'm+kurta;what+a+nerd;pythonista+%7C+gopher+%7C+tinkerer;i+use+linux+btw" alt="typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=800&color=00ADD8&center=true&vCenter=true&width=600&lines=hi%2C+i'm+kurta;that+tech+guy;pythonista+%7C+gopher+%7C+tinkerer;i+use+arch+btw" alt="typing intro" />
 </h1>
 
 <p align="center">
@@ -17,7 +17,7 @@
 ### 🖥️ `~/about`
 
 ```bash
-$ neofetch --kurta
+$ fastfetch
  ┌──────────────────────────────────────────┐
   OS        ▸ Linux
   Shell     ▸ zsh / bash
