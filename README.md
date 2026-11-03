@@ -42,11 +42,6 @@ $ fastfetch
 ### 📊 Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=adikhw&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adikhw&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="top langs" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com/?user=adikhw&theme=tokyonight&hide_border=true&background=0d1117" alt="streak" />
 </p>
 
