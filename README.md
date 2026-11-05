@@ -39,12 +39,6 @@ $ fastfetch
   <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black&style=for-the-badge" height="40" alt="linux logo" />
 </div>
 
-### 📊 Stats
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=adikhw&theme=tokyonight&hide_border=true&background=0d1117" alt="streak" />
-</p>
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer" alt="footer wave" />
 </p>
