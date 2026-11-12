@@ -14,7 +14,7 @@
   <a href="https://github.com/adikhw?tab=followers">
     <img src="https://img.shields.io/github/followers/adikhw?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=ffffff" alt="followers" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=adikhw&style=for-the-badge&label=PROFILE+VIEWS&labelColor=000000&color=ffffff" alt="profile views" />
+  <img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fkomarev.com%2Fghpvc%2F%3Fusername%3Dadikhw&query=%28%2F%2F%2A%5Blocal-name%28%29%3D%27text%27%5D%29%5Blast%28%29%5D&label=PROFILE%20VIEWS&style=for-the-badge&labelColor=000000&color=ffffff&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiA0LjVDNS40IDQuNSAxIDEyIDEgMTJzNC40IDcuNSAxMSA3LjVTMjMgMTIgMjMgMTIgMTguNiA0LjUgMTIgNC41Wm0wIDEyYTQuNSA0LjUgMCAxIDEgMC05IDQuNSA0LjUgMCAwIDEgMCA5WiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjIuMiIgZmlsbD0iYmxhY2siLz48L3N2Zz4%3D" alt="profile views" />
 </p>
 
 <p align="center">
