@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -39,13 +40,28 @@ BG = "#0d0d0d"
 
 
 def api(path: str):
+    data, _ = api_raw(path)
+    return data
+
+
+def api_raw(path: str):
     req = urllib.request.Request(API + path)
     req.add_header("Accept", "application/vnd.github+json")
     req.add_header("User-Agent", f"{LOGIN}-stats-card")
     if TOKEN:
         req.add_header("Authorization", f"Bearer {TOKEN}")
     with urllib.request.urlopen(req, timeout=30) as res:
-        return json.load(res)
+        return json.load(res), res.headers
+
+
+def repo_commits(full_name: str, branch: str) -> int:
+    """Count commits on one branch using the Link header's last page."""
+    try:
+        data, headers = api_raw(f"/repos/{full_name}/commits?sha={branch}&per_page=1")
+    except (urllib.error.HTTPError, urllib.error.URLError):
+        return 0
+    match = re.search(r'[?&]page=(\d+)>;\s*rel="last"', headers.get("Link", ""))
+    return int(match.group(1)) if match else len(data)
 
 
 def collect() -> dict:
@@ -64,8 +80,14 @@ def collect() -> dict:
             langs[name] = langs.get(name, 0) + size
 
     try:
-        commits = api(f"/search/commits?q=author:{LOGIN}&per_page=1")["total_count"]
-    except (urllib.error.HTTPError, urllib.error.URLError, KeyError):
+        # Skip the profile repo itself: its refresh commits would inflate the
+        # number by one every day without any real work behind it.
+        commits = sum(
+            repo_commits(r["full_name"], r.get("default_branch", "main"))
+            for r in repos
+            if not r.get("fork") and r["full_name"].lower() != f"{LOGIN}/{LOGIN}".lower()
+        )
+    except (urllib.error.HTTPError, urllib.error.URLError):
         commits = 0
 
     return {
