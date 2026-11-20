@@ -79,22 +79,18 @@ def collect() -> dict:
         for name, size in data.items():
             langs[name] = langs.get(name, 0) + size
 
-    try:
-        # Skip the profile repo itself: its refresh commits would inflate the
-        # number by one every day without any real work behind it.
-        commits = sum(
-            repo_commits(r["full_name"], r.get("default_branch", "main"))
-            for r in repos
-            if not r.get("fork") and r["full_name"].lower() != f"{LOGIN}/{LOGIN}".lower()
-        )
-    except (urllib.error.HTTPError, urllib.error.URLError):
-        commits = 0
+    # Skip the profile repo itself: its refresh commits would inflate the
+    # number by one every day without any real work behind it.
+    commits = sum(
+        repo_commits(r["full_name"], r.get("default_branch", "main"))
+        for r in repos
+        if not r.get("fork") and r["full_name"].lower() != f"{LOGIN}/{LOGIN}".lower()
+    )
 
     return {
         "repos": user.get("public_repos", len(repos)),
         "commits": commits,
         "stars": sum(r.get("stargazers_count", 0) for r in repos),
-        "followers": user.get("followers", 0),
         "langs": langs,
     }
 
