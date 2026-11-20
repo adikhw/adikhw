@@ -20,7 +20,7 @@
 
 I'm **adikhw**. I learn by building the thing I'm missing, then using it every day until it's good. Most of these repos started as *"this annoys me"* — a folder I can't find, a repo I forgot to push, a reminder app that wants an account I don't have.
 
-Fedora with GNOME bent into something keyboard-driven. Configs written down, so future me doesn't have to remember.
+Fedora with GNOME bent into something keyboard-driven. Configs written down, so future me doesn't have to remember. I write the docs in Indonesian and the code in whatever the problem deserves.
 
 ### `~ now`
 
@@ -76,9 +76,7 @@ rule       if I don't use it daily, it's not done
 
 Shell, prompt, VS Code and the GNOME rice live in **[dotfiles](https://github.com/adikhw/dotfiles)** — one PATH source, symlinked into `$HOME`, no drift between bash, zsh and sh.
 
-<div align="center">
-  <img src="image/banner.jpg" alt="" width="100%" />
-</div>
+---
 
 ```console
 $ echo $MOTTO
